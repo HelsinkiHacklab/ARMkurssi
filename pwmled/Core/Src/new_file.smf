@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modelarea>
+<components>
+<startstate id="1">
+<pos>594,62</pos>
+<outgoing_trans>
+<transition>3</transition>
+</outgoing_trans>
+</startstate>
+<atomicstate id="2">
+<name>HOMED</name>
+<size>105,68</size>
+<pos>550,140</pos>
+<inner_transitions/>
+<regions/>
+</atomicstate>
+<atomicstate id="5">
+<name>AT_HOME</name>
+<size>75,70</size>
+<pos>577,332</pos>
+<inner_transitions/>
+<regions/>
+</atomicstate>
+</components>
+<transitions>
+<labeledtransition id="6">
+<src>2</src>
+<dest>5</dest>
+<points/>
+<lines>
+<line id="7">
+<points>614,198,614,342</points>
+<source>2</source>
+<destination>5</destination>
+</line>
+</lines>
+<trigger>
+<text>event [condition] / action()</text>
+<pos>531,275</pos>
+</trigger>
+</labeledtransition>
+<labeledtransition id="3">
+<src>1</src>
+<dest>2</dest>
+<points/>
+<lines>
+<line id="4">
+<points>601,69,601,150</points>
+<source>1</source>
+<destination>2</destination>
+</line>
+</lines>
+<trigger>
+<text>/ doHoming()</text>
+<pos>513,95</pos>
+</trigger>
+</labeledtransition>
+</transitions>
+</modelarea>
