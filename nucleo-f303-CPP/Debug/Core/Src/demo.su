@@ -1,0 +1,28 @@
+stl_list.h:733:7:std::__cxx11::list<_Tp, _Alloc>::~list() [with _Tp = long int; _Alloc = std::allocator<long int>]	16	static
+demo.cpp:12:1:my_demo::demo::demo()	16	static
+demo.cpp:17:1:my_demo::demo::~demo()	16	static
+demo.cpp:17:1:virtual my_demo::demo::~demo()	16	static
+stl_list.h:589:7:std::__cxx11::list<_Tp, _Alloc>::list() [with _Tp = long int; _Alloc = std::allocator<long int>]	16	static
+stl_list.h:323:14:std::__cxx11::_List_base<long int, std::allocator<long int> >::_List_impl::~_List_impl()	16	static
+stl_list.h:441:7:std::__cxx11::_List_base<_Tp, _Alloc>::~_List_base() [with _Tp = long int; _Alloc = std::allocator<long int>]	16	static
+stl_list.h:400:7:std::__cxx11::_List_base<_Tp, _Alloc>::_List_base() [with _Tp = long int; _Alloc = std::allocator<long int>]	16	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = std::_List_node<long int>]	16	static
+list.tcc:65:5:void std::__cxx11::_List_base<_Tp, _Alloc>::_M_clear() [with _Tp = long int; _Alloc = std::allocator<long int>]	32	static
+stl_list.h:332:2:std::__cxx11::_List_base<_Tp, _Alloc>::_List_impl::_List_impl() [with _Tp = long int; _Alloc = std::allocator<long int>]	16	static
+stl_list.h:448:7:void std::__cxx11::_List_base<_Tp, _Alloc>::_M_init() [with _Tp = long int; _Alloc = std::allocator<long int>]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = std::_List_node<long int>]	16	static
+stl_list.h:113:18:_Tp* std::_List_node<_Tp>::_M_valptr() [with _Tp = long int]	16	static
+stl_list.h:393:7:std::__cxx11::_List_base<_Tp, _Alloc>::_Node_alloc_type& std::__cxx11::_List_base<_Tp, _Alloc>::_M_get_Node_allocator() [with _Tp = long int; _Alloc = std::allocator<long int>]	16	static
+alloc_traits.h:486:2:static void std::allocator_traits<std::allocator<_Tp1> >::destroy(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*) [with _Up = long int; _Tp = std::_List_node<long int>]	16	static
+stl_list.h:386:7:void std::__cxx11::_List_base<_Tp, _Alloc>::_M_put_node(typename std::__cxx11::_List_base<_Tp, _Alloc>::_Node_alloc_traits::pointer) [with _Tp = long int; _Alloc = std::allocator<long int>]	16	static
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = std::_List_node<long int>]	16	static
+stl_list.h:352:12:void std::__cxx11::_List_base<_Tp, _Alloc>::_M_set_size(std::size_t) [with _Tp = long int; _Alloc = std::allocator<long int>]	16	static
+aligned_buffer.h:70:7:_Tp* __gnu_cxx::__aligned_membuf<_Tp>::_M_ptr() [with _Tp = long int]	16	static
+new_allocator.h:140:2:void __gnu_cxx::new_allocator<_Tp>::destroy(_Up*) [with _Up = long int; _Tp = std::_List_node<long int>]	16	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_Tp1> >::deallocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::pointer, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::_List_node<long int>]	24	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = std::_List_node<long int>]	16	static
+stl_list.h:113:18:_Tp* std::_List_node<_Tp>::_M_valptr() [with _Tp = unsigned int]	16	static
+aligned_buffer.h:62:7:void* __gnu_cxx::__aligned_membuf<_Tp>::_M_addr() [with _Tp = long int]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = std::_List_node<long int>]	24	static
+aligned_buffer.h:70:7:_Tp* __gnu_cxx::__aligned_membuf<_Tp>::_M_ptr() [with _Tp = unsigned int]	16	static
+aligned_buffer.h:62:7:void* __gnu_cxx::__aligned_membuf<_Tp>::_M_addr() [with _Tp = unsigned int]	16	static

@@ -1,0 +1,16 @@
+usart.h:45:7:void Usart::usart::updatewrDMAIndex()	16	static
+main.cpp:20:8:void* operator new(size_t)	16	static
+main.cpp:25:8:void* operator new [](size_t)	16	static
+main.cpp:30:6:void operator delete(void*)	16	static
+main.cpp:35:6:void operator delete [](void*)	16	static
+main.cpp:46:6:void vApplicationTickHook()	8	static
+main.cpp:60:6:void serialTask(void*)	320	static
+main.cpp:106:5:int main()	24	static
+main.cpp:135:6:void SystemClock_Config()	160	static
+main.cpp:180:13:void MX_USART2_UART_Init()	8	static
+main.cpp:213:13:void MX_DMA_Init()	16	static
+main.cpp:234:13:void MX_GPIO_Init()	48	static
+main.cpp:275:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	16	static
+main.cpp:292:6:void Error_Handler()	4	static
+main.cpp:295:1:void __static_initialization_and_destruction_0(int, int)	16	static
+main.cpp:295:1:cpp)	8	static

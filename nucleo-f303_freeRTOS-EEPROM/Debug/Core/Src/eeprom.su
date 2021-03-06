@@ -1,0 +1,6 @@
+eeprom.cpp:15:1:eeprom::eeprom(uint8_t, GPIO_TypeDef*, uint16_t)	24	static
+eeprom.cpp:22:1:eeprom::~eeprom()	16	static
+eeprom.cpp:22:1:virtual eeprom::~eeprom()	16	static
+eeprom.cpp:29:6:bool eeprom::read(uint16_t, uint8_t*, uint16_t)	40	static
+eeprom.cpp:44:6:bool eeprom::write(uint16_t, uint8_t*, uint16_t)	80	static
+eeprom.cpp:105:6:void eeprom::print(uint16_t)	144	static

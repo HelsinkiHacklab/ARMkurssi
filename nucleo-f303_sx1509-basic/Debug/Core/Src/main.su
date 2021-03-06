@@ -1,0 +1,13 @@
+ioexp.h:46:21:static sx1509::ioexpStat_t sx1509::ioexp::stat()	4	static
+main.cpp:17:8:void* operator new(size_t)	16	static
+main.cpp:22:8:void* operator new [](size_t)	16	static
+main.cpp:27:6:void operator delete(void*)	16	static
+main.cpp:32:6:void operator delete [](void*)	16	static
+main.cpp:46:6:void ledVatkytin(void*)	48	static
+main.cpp:74:5:int main()	24	static
+main.cpp:92:6:void SystemClock_Config()	160	static
+main.cpp:138:13:void MX_I2C1_Init()	8	static
+main.cpp:184:13:void MX_USART2_UART_Init()	8	static
+main.cpp:219:13:void MX_GPIO_Init()	48	static
+main.cpp:271:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	16	static
+main.cpp:288:6:void Error_Handler()	4	static

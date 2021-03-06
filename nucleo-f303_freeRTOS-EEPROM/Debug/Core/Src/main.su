@@ -1,0 +1,18 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+basic_string.h:6362:3:int std::__cxx11::stoi(const string&, std::size_t*, int)	32	static
+main.cpp:36:6:int _read(int, char*, int)	24	static
+main.cpp:44:6:int _write(int, char*, int)	32	static
+main.cpp:60:5:int main()	304	static
+main.cpp:151:6:void SystemClock_Config()	160	static
+main.cpp:197:13:void MX_I2C1_Init()	8	static
+main.cpp:243:13:void MX_USART2_UART_Init()	8	static
+main.cpp:276:13:void MX_DMA_Init()	16	static
+main.cpp:297:13:void MX_GPIO_Init()	48	static
+main.cpp:343:6:void Error_Handler()	4	static
+string_conversions.h:63:2:)::_Save_errno::_Save_errno() [with _TRet = long int; _Ret = int; _CharT = char; _Base = {int}]	16	static
+string_conversions.h:64:2:)::_Save_errno::~_Save_errno() [with _TRet = long int; _Ret = int; _CharT = char; _Base = {int}]	16	static
+string_conversions.h:73:4:)::_Range_chk::_S_chk(_TRet, std::true_type) [with _TRet = long int; _Ret = int; _CharT = char; _Base = {int}]	16	static
+string_conversions.h:54:5:) [with _TRet = long int; _Ret = int; _CharT = char; _Base = {int}]	56	static
+main.cpp:349:1:void __static_initialization_and_destruction_0(int, int)	16	static
+main.cpp:349:1:cpp)	8	static
+main.cpp:349:1:cpp)	8	static

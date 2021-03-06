@@ -1,0 +1,16 @@
+usart.cpp:19:13:void Usart::usartTimerCallback(TimerHandle_t)	24	static
+usart.cpp:26:8:static Usart::usart* Usart::usart::getInstance()	16	static
+usart.cpp:33:1:Usart::usart::usart()	16	static
+usart.cpp:44:1:Usart::usart::~usart()	16	static
+usart.cpp:49:6:void Usart::usart::begin(UART_HandleTypeDef*, DMA_HandleTypeDef*, DMA_HandleTypeDef*)	32	static
+usart.cpp:65:6:void Usart::usart::enable()	16	static
+usart.cpp:71:6:void Usart::usart::disable()	16	static
+usart.cpp:77:6:void Usart::usart::clear()	16	static
+usart.cpp:82:19:HAL_StatusTypeDef Usart::usart::putChar(uint8_t)	24	static
+usart.cpp:90:19:HAL_StatusTypeDef Usart::usart::putLine(uint8_t*)	16	static
+usart.cpp:95:19:HAL_StatusTypeDef Usart::usart::putBlock(uint8_t*, uint16_t)	24	static
+usart.cpp:104:10:uint16_t Usart::usart::available()	16	static
+usart.cpp:110:9:uint8_t Usart::usart::getChar()	24	static
+usart.cpp:122:6:bool Usart::usart::getLine(uint8_t*, uint16_t, uint32_t, uint16_t*)	48	static,ignoring_inline_asm
+usart.cpp:145:6:bool Usart::usart::getBlock(uint8_t*, uint16_t, uint32_t, uint16_t*)	48	static,ignoring_inline_asm
+usart.cpp:165:6:bool Usart::usart::spoolDMABuffer()	16	static

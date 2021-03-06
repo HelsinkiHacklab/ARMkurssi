@@ -1,0 +1,2 @@
+ADCTask.c:21:6:HAL_ADC_ConvCpltCallback	16	static,ignoring_inline_asm
+ADCTask.c:30:6:ADCTask	48	static
