@@ -210,6 +210,7 @@ void RTC_WKUP_IRQHandler(void)
   /* USER CODE END RTC_WKUP_IRQn 0 */
   HAL_RTCEx_WakeUpTimerIRQHandler(&hrtc);
   /* USER CODE BEGIN RTC_WKUP_IRQn 1 */
+  HAL_RTCEx_DeactivateWakeUpTimer(&hrtc);
   HAL_ResumeTick();
 
   /* USER CODE END RTC_WKUP_IRQn 1 */
